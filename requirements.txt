@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+tqdm
+jupyter
+requests
