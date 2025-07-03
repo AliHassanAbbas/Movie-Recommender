@@ -21,18 +21,29 @@ This project trains a Neural Collaborative Filtering (NCF) model to predict user
 ## 📂 Project Structure
 
 recommender-system/
+
 ├── data/
+
 │ └── ml-1m/ # Place MovieLens 1M files here after downloading
 ├── models/
+
 │ └── ncf.py # Neural Collaborative Filtering model definition
 ├── utils/
+
 │ ├── dataloader.py # Functions to load & preprocess MovieLens data
+
 │ ├── dataset.py # PyTorch Dataset class
+
 │ └── evaluate.py # Evaluation helper
+
 ├── app.py # Streamlit app entry point
+
 ├── main.py # Training script
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # This readme
+
 └── .gitignore
 
 
