@@ -9,8 +9,11 @@ This project trains a Neural Collaborative Filtering (NCF) model to predict user
 ## 🚀 Features
 
 ✅ Trains an NCF model on MovieLens 1M  
+
 ✅ Fetches movie posters, genres, and summaries via TMDb API  
+
 ✅ Streamlit app with interactive movie grid & recommendation viewer  
+
 ✅ Easily customizable & extendable for your own datasets
 
 ---
