@@ -56,9 +56,13 @@ This project uses the **MovieLens 1M dataset**. Download it from [GroupLens Movi
 After downloading and extracting, place the folder like this:
 
 recommender-system/
+
 └── data/
+
 └── ml-1m/
+
 ├── ratings.dat
+
 └── movies.dat
 
 ---
@@ -75,28 +79,42 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 🔑 TMDb API Key
+
 To fetch movie posters, summaries, and genres, this project uses the TMDb API. Sign up at TMDb to get a free API key. Replace the TMDB_API_KEY variable in app.py with your own key:
 TMDB_API_KEY = "your_api_key_here"
 
+
 🏋️ Training the Model
+
 Train the recommender with:
 python main.py
 
 🎨 Running the Streamlit App
+
 Launch the interactive recommender app with:
+
 streamlit run streamlit_app.py
+
 This will open your browser. You can:
+
 ✅ Browse movies with posters and descriptions
+
 ✅ Click Get Recommendations for personalized suggestions
+
 ✅ See recommended movies with posters, genres, and summaries
 
+
 📜 License
+
 MIT License © 2025 AliHassan
 
 🙌 Acknowledgements
+
 MovieLens dataset by GroupLens Research
 
 TMDb API for movie metadata
 
+
 🔗 Connect
+
 Feel free to open issues or pull requests if you’d like to contribute!
